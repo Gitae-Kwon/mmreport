@@ -113,11 +113,11 @@ with tab1:
         st.checkbox("검증 모드(예외 상세 표시)", value=False, disabled=True)
 
 with tab2:
-    st.markdown(\"\"\"
+    st.markdown("""
 ### 사용법
 1. **Google Sheets** 모드: 서비스 계정 JSON과 문서 ID/URL을 입력 → *탭 불러오기* → *월(탭) 선택* → *선택 탭 읽기*.
 2. **엑셀 업로드** 모드: xlsx 업로드 → 월(탭) 선택.
 3. **계산 및 양식 변환** 섹션에서 결과 **미리보기** 확인 → **포맷된 엑셀 다운로드**.
 
 > ⚠️ 실제 회사 양식과 계산 로직은 팀 규칙에 맞게 `compute.py`와 `formatter.py`를 수정하세요.
-\"\"\")
+""")
